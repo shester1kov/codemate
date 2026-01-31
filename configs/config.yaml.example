@@ -1,0 +1,22 @@
+# настройки сервера
+
+server:
+  host: "localhost"
+  port: 8080
+  mode: "debug"
+
+# настройки логирования
+
+logger:
+  level: "debug"
+  encoding: "json"
+  output_path: "stdout"
+
+# настройки будущих интеграций
+
+qdrant:
+  url: "http://localhost:6333"
+
+ollama:
+  url: "http://localhost:11434"
+  model: "llama3.2:3b"
